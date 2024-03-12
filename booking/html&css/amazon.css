@@ -1,0 +1,10 @@
+h1{
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 5px;
+    width: auto;
+    font-style: italic;
+   }
+   h2{
+    color: aqua;
+   }

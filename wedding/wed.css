@@ -1,0 +1,171 @@
+body{
+background-color:lightsalmon;
+}
+main h1{
+margin-left: 35%;
+color: black;
+padding-top: 30px;
+padding-bottom: 15px;
+}
+#q1{
+background-color: white;
+margin-left: 5%;
+margin-right: 5%;
+}
+#q1 img{
+height: 27%;
+width: 25%;
+margin-top: 0.4%;
+margin-left: 0.4%;
+}
+#q1 p{
+float: right;
+margin-right:36%;
+margin-top: 17px;
+}
+#q2{
+    background-color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    }
+    #q2 img{
+    height: 27%;
+    width: 25%;
+    margin-top: 0.4%;
+    margin-left: 0.4%;
+    }
+    #q2 p{
+    float: right;
+    margin-right: 39%;
+    margin-top: 17px;
+    }
+    #q3{
+        background-color: white;
+        margin-left: 5%;
+        margin-right: 5%;
+        }
+        #q3 img{
+        height: 27%;
+        width: 25%;
+        margin-top: 0.4%;
+        margin-left: 0.4%;
+        }
+        #q3 p{
+        float: right;
+        margin-right: 36%;
+        margin-top: 17px;
+        }
+        #q4{
+            background-color: white;
+            margin-left: 5%;
+            margin-right: 5%;
+            }
+            #q4 img{
+            height: 27%;
+            width: 25%;
+            margin-top: 0.4%;
+            margin-left: 0.4%;
+            }
+            #q4 p{
+            float: right;
+            margin-right: 37.5%;
+            margin-top: 17px;
+            }
+            #q5{
+                background-color: white;
+                margin-left: 5%;
+                margin-right: 5%;
+                }
+                #q5 img{
+                height: 27%;
+                width: 25%;
+                margin-top: 0.4%;
+                margin-left: 0.4%;
+                }
+                #q5 p{
+                float: right;
+                margin-right: 34%;
+                margin-top: 17px;
+                }
+                #q6{
+                    background-color: white;
+                    margin-left: 5%;
+                    margin-right: 5%;
+                    }
+                    #q6 img{
+                    height: 27%;
+                    width: 25%;
+                    margin-top: 0.4%;
+                    margin-left: 0.4%;
+                    }
+                    #q6 p{
+                    float: right;
+                    margin-right: 33%;
+                    margin-top: 17px;
+                    }
+                    #q7{
+                        background-color: white;
+                        margin-left: 5%;
+                        margin-right: 5%;
+                        padding: 0.1%;
+                        }
+                        #q7 img{
+                        height: 27%;
+                        width: 25%;
+                        margin-top: 0.4%;
+                        margin-left: 0.4%;
+                        }
+                        #q7 p{
+                        float: right;
+                        margin-right: 37%;
+                        margin-top: 17px;
+                        }
+                        #q8{
+                            background-color: white;
+                            margin-left: 5%;
+                            margin-right: 5%;
+                            padding: 0.1%;
+                            }
+                            #q8 img{
+                            height: 27%;
+                            width: 25%;
+                            margin-top: 0.4%;
+                            margin-left: 0.4%;
+                            }
+                            #q8 p{
+                            float: right;
+                            margin-right: 37.5%;
+                            margin-top: 17px;
+                            }
+                            #q9{
+                                background-color: white;
+                                margin-left: 5%;
+                                margin-right: 5%;
+                                }
+                                #q9 img{
+                                height: 27%;
+                                width: 25%;
+                                margin-top: 0.4%;
+                                margin-left: 0.4%;
+                                }
+                                #q9 p{
+                                float: right;
+                                margin-right: 39%;
+                                margin-top: 17px;
+                                }
+                                #q10{
+                                    background-color: white;
+                                    margin-left: 5%;
+                                    margin-right: 5%;
+                                    }
+                                    #q10 img{
+                                    height: 27%;
+                                    width: 25%;
+                                    margin-top: 0.4%;
+                                    margin-left: 0.4%;
+                                    }
+                                    #q10 p{
+                                    float: right;
+                                    margin-right: 34%;
+                                    margin-top: 17px;
+                                    }

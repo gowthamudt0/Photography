@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Reviews</title>
+    <link rel="stylesheet" href="reviews.css">
+</head>
+<body>
+    <section class="section4">
+    <div class="hero">
+        <h2>Customer Reviews</h2>
+        <div class="review-box">
+            <div id="review-slide">
+                <div class="review-content">
+                    <div class="review-profile">
+                        <img src="images/creative.jpg" alt="creative">
+                        <div>
+                            <h3>Aakash</h3>
+                            <p>Web Designer</p>
+                        </div>
+                    </div>
+                    <p class="comment">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you There are many variations of passages of Lorem Ipsum available, but the majority have suffered</p>
+                </div>
+                <div class="review-content">
+                    <div class="review-profile">
+                        <img src="images/look.png" alt="look">
+                        <div>
+                            <h3>Rodericks</h3>
+                            <p>Web Designer</p>
+                        </div>
+                    </div>
+                    <p class="comment">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you There are many variations of passages of Lorem Ipsum available, but the majority have suffered </p>
+                </div>
+                <div class="review-content">
+                    <div class="review-profile">
+                        <img src="images/pexels-arshad-sutar-1789711.jpg" alt="light">
+                        <div>
+                            <h3>Kishoore</h3>
+                            <p>Web Designer</p>
+                        </div>
+                    </div>
+                    <p class="comment">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you There are many variations of passages of Lorem Ipsum available, but the majority have suffered </p>
+                </div>
+                <div class="review-content">
+                    <div class="review-profile">
+                        <img src="images/pexels-satria-bagaskara-1567731.jpg" alt="waterfall">
+                        <div>
+                            <h3>Parithy</h3>
+                            <p>Web Designer</p>
+                        </div>
+                    </div>
+                    <p class="comment">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you There are many variations of passages of Lorem Ipsum available, but the majority have suffered </p>
+                </div>
+            </div>
+            <div class="sidebar">
+                <img src="images/up-arrow.png" alt="up-arrow" id="upArrow">
+                <img src="images/down-arrow.png" alt="down-arrow" id="downArrow">
+            </div>
+        </div>
+    </div>
+    </section>
+    <script>
+        var slide = document.getElementById("review-slide");
+        var upArrow = document.getElementById("upArrow");
+        var downArrow = document.getElementById("downArrow");
+
+        let x = 0;
+
+        upArrow.onclick = function(){
+            if(x > "-900"){
+                x = x - 300;
+                slide.style.top = x +"px";
+            }
+        }
+        downArrow.onclick = function(){
+            if(x < 0){
+                x = x + 300;
+                slide.style.top = x +"px";
+            }
+        }
+
+
+
+
+
+    </script>
+</body>
+</html>

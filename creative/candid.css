@@ -1,0 +1,297 @@
+
+/* Slideshow container */
+body{
+  background-image: url(images/lkjh.png);
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: 0%;
+  }
+  * {
+    box-sizing: border-box;
+  }
+    
+  
+  .slideshow-container {
+      max-width: 1000px;
+      position: relative;
+      margin: auto;
+    
+    }
+    
+    /* Next & previous buttons */
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 16px;
+      margin-top: -22px;
+      color: white;
+      font-weight: bold;
+      font-size: 19px;
+      transition: 0.3s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+      left: 32%;
+    }
+    
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px ;
+    }
+    
+    /* On hover, add a black background color with a little bit see-through */
+  
+    /* Caption text */
+    .text {
+      color: #f2f2f2;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 100%;
+      text-align: center;
+    }
+    
+    /* Number text (1/3 etc) */
+    .numbertext {
+      color: #0a0a0a;
+      font-size: 17px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0%;
+      left: 65%;
+    }
+    
+    /* The dots/bullets/indicators */
+    .dot {
+      cursor: pointer;
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+    
+    .active, .dot:hover {
+      background-color: #717171;
+    }
+    
+    /* Fading animation */
+    .fade {
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+    
+    @keyframes fade {
+      from {opacity: .4}
+      to {opacity: 1}
+    }
+    
+    /* On smaller screens, decrease text size */
+    @media only screen and (max-width: 300px) {
+      .prev, .next,.text {font-size: 11px}
+    }
+  .header{
+    font-size: 50px;
+    float: left;
+    color: whitesmoke;
+    
+    
+  }
+  
+  /*---------------------------------------------------------------------------------------------------------------------------*/
+  .row > .column {
+    padding: 0 8px;
+  
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .column {
+    float: left;
+    width: 20%;
+    height: 10%;
+    padding: 1%;
+    
+  }
+  
+  /* The Modal (background) */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(245, 239, 239);
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: #0c0b0b;
+    margin: auto;
+    padding: 0;
+    width: 100%;
+    height: 200%;
+    max-width: 1200px;
+  
+  }
+  
+  /* The Close Button */
+  .close {
+    color: rgb(17, 16, 16);
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .mySlides {
+    display: none;
+  
+  }
+  
+  .cursor {
+    cursor: pointer;
+    float: center;
+  }
+  
+  /* Next & previous buttons */
+  .prevs,
+  .nexts {
+    cursor: pointer;
+    position: absolute;
+    top: 100%;
+    width: auto;
+    padding: 6px;
+    margin-top: -50px;
+    color: rgb(230, 171, 171);
+    font-weight: bold;
+    font-size: 30px;
+    transition: 0.6s ease;
+    border-radius:  0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    left: 30%;
+    
+    
+  }
+  
+  
+  /* Position the "next button" to the right */
+  .nexts {
+    right: 0;
+    border-radius:  3px 0 0 3px ;
+    left: 68%;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prevs:hover,
+  .nexts:hover {
+    background-color: black;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertexts {
+    color: black;
+    font-size: 16px;
+    padding: 8px 14px;
+    position: absolute;
+    top: 5px;
+    left:63%;
+  }
+  
+  img {
+    margin-bottom: -4px;
+  }
+  
+  .caption-container {
+    text-align: center;
+    background-color: black;
+    padding:px ;
+    color: rgb(15, 14, 14);
+  }
+  
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  
+  img.hover-shadow {
+    transition: 0.3s;
+  }
+  
+  .hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(241, 233, 233, 0.808), 0 6px 20px 0 rgba(51, 153, 139, 0.19);
+  }
+  
+  .logo {
+    
+    border-radius: 4px;
+    padding: 3px;
+    opacity: 80%;
+    
+    
+  
+  }
+   /*--------------------------------------------------------------------------------------------------------*/
+  
+  
+   footer {
+    border-top: 8px solid #333;
+    padding: 2rem 1rem;
+    color: #757575;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .footer__row__2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+  }
+  
+  .footer__row__1>h4 {
+    font-size: 15px;
+    font-weight: 900;
+  }
+  
+  .footer__row__3>.dropdown__container {
+    width: fit-content;
+    border: 1px solid #757575;
+    color: #757575;
+  }
+  
+  .footer__row__3>.dropdown__container>.language__drop__down {
+    color: #757575;
+  }

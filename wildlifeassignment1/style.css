@@ -1,0 +1,115 @@
+.heading{
+    position: absolute;
+    text-align: center;
+    background-color: crimson;
+    width: 100%;
+    height: 100px;
+    border: red;
+    font-size: 75px; 
+    margin-bottom: 125px;
+    padding-top: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.heading img{
+    margin-block-end: 65px;
+    float: left;
+    height: 100px;
+    width: 100px;
+}
+li{
+    margin-left: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -5px;
+}
+main h2{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+main p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+b{
+    margin-left: 10px;
+}
+body{
+    background-image: linear-gradient(to right,#77a1d3,#79cbca,#e684ae);
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+* {
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+}
+#animal{
+    background: rebeccapurple;
+    width: 260px;
+    height: 500px;
+    margin: 30px;
+}
+#animal:hover{
+    background-color:firebrick;
+    color:antiquewhite;
+    cursor: pointer;
+    transform: scale(1.03);
+transition: all is ease;    
+}
+
+.container1{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+#birds{
+    background: rebeccapurple;
+    width: 260px;
+    height: 500px;
+    margin: 30px;
+}
+#birds:hover{
+    background-color:orangered;
+    color:beige;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: scale(1.03);
+    transition: all is ease;
+}
+.container2{
+    justify-content: center;
+    display: flex;
+}
+*{
+box-sizing: grey;
+padding: 0;
+margin: 0;
+}
+#monkey{
+    background: rebeccapurple;
+    width: 260px;
+    height: 500px;
+    margin: 30px;
+}
+#monkey:hover{
+    background-color:teal;
+    color:azure;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: scale(1.03);
+    transition: all is ease;
+}
+li{
+    font-size: large;
+    font-style: italic;
+    color: burlywood;
+}

@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+footer{
+   
+    font-family: 'Poppins', sans-serif;
+}
+footer{
+    margin-top: 50px;
+}
+.footer-contents{
+    box-sizing: border-box;
+}
+footer .containers{
+    max-width: 1170px;
+    margin: auto;
+}
+footer .rows{
+    display: flex;
+    flex-wrap: wrap;
+}
+footer ul{
+    list-style-type: none;
+}
+footer .footer-contents{
+    background-color: #24262b;
+    padding: 70px 0;
+}
+footer .footer-cols{
+    width: 25%;
+    padding: 0 15px;
+}
+footer .footer-cols span{
+    color: yellow;
+}
+footer .footer-cols h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+footer .footer-cols h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+footer .contact_Info{
+    color: #ffffff;
+    font-size: 100%;
+  }
+.footer-cols ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-cols ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-cols ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+}
+.footer-cols .social-links i{
+    margin-top: 10px;
+}
+.footer-cols .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+.footer-cols .social-links a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+}
+/*responsive*/
+@media(max-width: 767px){
+    .footer-cols{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width: 574px){
+    .footer-cols{
+        width: 100%;
+    }
+}
+/*footer copyrights*/
+.footer_copy {
+    background-color: #f0b016;
+  }
+
+  .footer_copy p {
+    color: black;
+    margin: 0;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .footer_copy a {
+    color:#e91e63;
+    text-decoration: none;
+  }
